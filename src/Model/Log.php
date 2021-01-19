@@ -4,7 +4,7 @@ namespace OxidSupport\Hubli\Model;
 
 class Log
 {
-    private static ?Object $instance = null;
+    private static ?Log $instance = null;
     private array $messages = [];
     
     private function __construct() { }

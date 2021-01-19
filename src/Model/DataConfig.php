@@ -6,7 +6,7 @@ class DataConfig
 {
     private const DATACONFIG_FILEPATH = __DIR__ . '/../../config/dataConfig.json';
 
-    private static ?Object $instance = null;
+    private static ?DataConfig $instance = null;
     private Object $config;
     
     private function __construct() { }

@@ -4,7 +4,7 @@ namespace OxidSupport\Hubli\Model;
 
 class ContactList
 {
-    private static ?Object $instance = null;
+    private static ?ContactList $instance = null;
     private array $list = [];
     
     private function __construct() { }
