@@ -1,0 +1,21 @@
+{
+    "name": "oxid-support/hubli",
+    "description": "Converts a SugarCRM contacts report to well formatted HubSpot contact lists.",
+    "type": "project",
+    "homepage": "https://oxid-esales.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "OXID Support",
+            "email": "support@oxid-esales.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OxidSupport\\Hubli\\": "src/"
+        }
+    }
+}

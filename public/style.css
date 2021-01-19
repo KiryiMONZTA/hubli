@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #ddd;
+    background-color: #33475b;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: normal;
+    color: #ff7a59;
+}
+h2 {
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main {
+    width: 100%;
+    min-width: 340px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+main {
+    flex: 1;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.btn {
+    margin: 10px;
+    padding: 30px;
+    font-size: 1.4rem;
+    color: #ff7a59;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #ff7a59;
+    border-radius: 10px;
+    transition: color 0.5s, background-color 0.5s;
+}
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    text-decoration: none;
+    Background-color: #ff7a59;
+}
+
+.log {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.log p {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* BORDER DESIGN */
+.btns,
+.log {
+    border-style: solid;
+    border-color: #00bda5;
+}
+.btns {
+    border-width: 2px 0 0 0;
+}
+.log {
+    border-width: 0 2px 0 2px;
+}

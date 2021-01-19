@@ -1,0 +1,70 @@
+{
+    "preferredLanguage": {
+        "in": {
+            "name": "preferredLanguage",
+            "values": [
+                "englisch",
+                "deutsch"
+            ]
+        },
+        "out": {
+            "name": "Preferred language",
+            "values": [
+                "en",
+                "de"
+            ]
+        }
+    },
+    "salutation": {
+        "in": {
+            "name": "salutation",
+            "values": {
+                "en": [
+                    "Ms.",
+                    "Mr."
+                ],
+                "de": [
+                    "Frau",
+                    "Herr"
+                ]
+            }
+        },
+        "out": {
+            "name": "Anrede",
+            "values": {
+                "en": [
+                    "Ms.",
+                    "Mr."
+                ],
+                "de": [
+                    "Frau",
+                    "Herr"
+                ]
+            }
+        }
+    },
+    "firstName": {
+        "in": {
+            "name": "firstName"
+        },
+        "out": {
+            "name": "First name"
+        }
+    },
+    "lastName": {
+        "in": {
+            "name": "lastName"
+        },
+        "out": {
+            "name": "Last name"
+        }
+    },
+    "email": {
+        "in": {
+            "name": "email"
+        },
+        "out": {
+            "name": "email"
+        }
+    }
+}
