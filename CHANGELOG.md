@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.1] - 2021-02-02
 ### Fixed
-- `index.php` - filepath in case-sensitive environments.
+- `index.php` filepath in case-sensitive environments.
 
 ## [1.1.0] - 2021-02-02
 ### Added
