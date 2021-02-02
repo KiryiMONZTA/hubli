@@ -4,7 +4,11 @@ namespace OxidSupport\Hubli\Service;
 
 class Uploader
 {
-    private const VALID_MIMETYPES = ['text/csv', 'text/plain'];
+    private const VALID_MIMETYPES = [
+        'text/csv',
+        'text/plain',
+        'application/csv'
+    ];
 
     public function upload(string $tmpFilename, string $importDir): ?string
     {
