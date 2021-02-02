@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2021-02-02
+### Fixed
+- `index.php` - filepath in case-sensitive environments.
+
 ## [1.1.0] - 2021-02-02
 ### Added
 - `Uploader` additional MIME type due to PHP 8 support.

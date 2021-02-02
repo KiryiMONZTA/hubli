@@ -1,3 +1,3 @@
 <?php
 
-require_once __DIR__ . '/../src/Bootstrap.php';
+require_once __DIR__ . '/../src/bootstrap.php';
