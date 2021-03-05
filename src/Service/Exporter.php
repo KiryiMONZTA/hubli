@@ -29,6 +29,10 @@ class Exporter
             fclose($file);
         }
 
+        foreach ($exportFilenames as $filename) {
+            $this->ensureUtf8Encoding($filename);
+        }
+
         return $exportFilenames;
     }
 
@@ -55,5 +59,14 @@ class Exporter
     private function generateExportFilename(string $generalExportFilename, string $language): string
     {
         return substr($generalExportFilename, 0, -4) . '-' . $language . '.csv';
+    }
+
+    private function ensureUtf8Encoding(string $filename): void
+    {
+        $contents = file_get_contents($filename);
+
+        if (!mb_detect_encoding($contents, 'UTF-8', true)) {
+            file_put_contents($filename, utf8_encode($contents));
+        }
     }
 }
