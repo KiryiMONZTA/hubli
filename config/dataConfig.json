@@ -3,15 +3,15 @@
         "in": {
             "name": "preferredLanguage",
             "values": [
-                "englisch",
-                "deutsch"
+                "deutsch",
+                "englisch"
             ]
         },
         "out": {
             "name": "Preferred language",
             "values": [
-                "en",
-                "de"
+                "de",
+                "en"
             ]
         }
     },

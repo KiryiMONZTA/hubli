@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-11-29
+### Changed
+- Changed standard language from *en* to *de*.
+
 ## [1.1.2] - 2021-03-05
 ### Fixed
 - `Exporter` UTF-8 encoding. Extra function was added to ensure strict UTF-8 encoding of export files.
